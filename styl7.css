@@ -1,0 +1,73 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+.header,
+footer {
+  height: 30px;
+
+  background-color: rgb(70, 130, 180);
+  color: white;
+
+  text-align: center;
+}
+.title {
+}
+.main-section {
+  padding: 50px;
+
+  background-color: rgb(176, 196, 222);
+
+  text-align: center;
+}
+.main-photo {
+  padding: 3px;
+
+  border: 1px dashed blue;
+  border-radius: 10px;
+}
+.left-section {
+  float: left;
+
+  height: 300px;
+  width: 80%;
+
+  background-color: rgb(70, 130, 180);
+
+  color: white;
+}
+.left-section-title {
+}
+
+.photo {
+  height: 40%;
+  border-width: 1px;
+  border-color: transparent;
+  border-style: solid;
+  transition: border 250ms ease-in-out;
+}
+.photo:hover {
+  border: 1px solid white;
+}
+.right-section {
+  float: left;
+
+  height: 300px;
+  width: 20%;
+
+  background-color: rgb(70, 130, 180);
+
+  color: white;
+}
+.right-section-title {
+}
+.like-desc {
+}
+.like-photo {
+}
+.disabled {
+}
+.footer {
+  clear: both;
+}
+.footer-text {
+}
